@@ -8,7 +8,7 @@ const PokedexPage = () => {
   const [pokeSearch, setPokeSearch] = useState('');
   const [typeSelected, setTypeSelected] = useState('allPokemons');
   const [currentPage, setCurrentPage] = useState(1);
-  const [pokemonsPerPage, setPokemonsPerPage] = useState(10); // Valor predeterminado
+  const [pokemonsPerPage, setPokemonsPerPage] = useState(10);
   const [darkMode, setDarkMode] = useState(false);
 
   const inputSearch = useRef();
@@ -36,7 +36,7 @@ const PokedexPage = () => {
 
   const handlePageSizeChange = (size) => {
     setPokemonsPerPage(size);
-    setCurrentPage(1); // Reiniciar a la primera página cuando se cambia el tamaño de la página
+    setCurrentPage(1);
   };
 
   const toggleDarkMode = () => {
@@ -62,7 +62,7 @@ const PokedexPage = () => {
           ))}
         </select>
       </div>
-      <p className="welcome_title">Welcome <span className="trainee_name">{trainer}</span>, here you can find your favorite Pokemons!</p>
+      <p className="welcome_title">Welcome <span className="trainee_name">{trainer}</span>, select your favorite Pokemons!</p>
       <form onSubmit={handleSubmit} className="search_form">
         <input ref={inputSearch} type="text" placeholder="Enter your Pokemon name" className="search_input" />
         <button className="search_button">Search</button>

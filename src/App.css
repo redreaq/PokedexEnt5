@@ -11,9 +11,9 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    border: 1px solid #ccc; /* Agrega un borde de 1px sólido con color gris */
-    border-radius: 5px; /* Añade esquinas redondeadas */
-    background-color: #7d3c3c; /* Agrega un color de fondo */
+    border: 1px solid #f9ae52;
+    border-radius: 6px; 
+    background-color: #f0ac1a; 
 }
   
 @keyframes changeColor {
@@ -21,7 +21,7 @@
       color: #5c7cdd;
     }
     to {
-      color: #f9ff47; /* Cambia el color a amarillo */
+      color: #f9ff47; 
     }
 }
 
@@ -31,10 +31,10 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 55px; /* Ajusta el tamaño del círculo */
-    height: 55px; /* Ajusta el tamaño del círculo */
-    background-image: url('/pokedexicono.jpg'); /* Ruta de la imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen */
+    width: 55px; 
+    height: 55px; 
+    background-image: url('/pokedexicono.jpg'); 
+    background-size: cover; 
     border-radius: 50%;
   }
 
@@ -47,11 +47,11 @@
     padding-right: 70px;
     padding: 10px 20px;
     margin-bottom: 10px;
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    padding: 10px 20px; /* Agrega un relleno de 10px */
-    border: 1px solid #ccc; /* Agrega un borde de 1px sólido con color gris */
-    border-radius: 5px; /* Añade esquinas redondeadas */
-    background-color: #7d3c3c; /* Agrega un color de fondo */
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid #030000; 
+    border-radius: 5px; 
+    background-color: #f0ac1a; 
 }
   
   
@@ -62,11 +62,11 @@
     color: #1c59f5;
     padding: 10px 20px;
     margin-bottom: 10px;
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    padding: 10px 20px; /* Agrega un relleno de 10px */
-    border: 1px solid #ffffff; /* Agrega un borde de 1px sólido con color gris */
-    border-radius: 5px; /* Añade esquinas redondeadas */
-    background-color: #7d3c3c; /* Agrega un color de fondo */
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #030000;
+    border-radius: 5px;
+    background-color: #f0ac1a;
     animation: downloadAnimation 3s infinite;
 }
  

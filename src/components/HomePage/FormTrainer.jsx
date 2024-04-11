@@ -13,7 +13,7 @@ const FormTrainer = () => {
     e.preventDefault();
     const userInput = trainerInput.current.value.trim();
     if (userInput.length < 4) { // Cambiar la condición a userInput.length < 4
-      setError("❌ ERROR 404. Your Pokedex has not been found. Please provide a name with more than three letters ❌");
+      setError("❌ ERROR, Your Pokedex has not been found. ❌");
       return;
     }
     dispatch(setTrainer(userInput));
@@ -27,8 +27,8 @@ const FormTrainer = () => {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="search-form">
-        <input ref={trainerInput} type="text" placeholder="Enter your trainer name" className="search-input" />
-        <button className="search-button">Let's start!</button>
+        <input ref={trainerInput} type="text" placeholder="Put your name trainer" className="search-input" />
+        <button className="search-button">Let's begin!</button>
       </form>
       {error && (
         <div className="error-box">
